@@ -22,14 +22,16 @@ class Education extends Component {
             <Moment format="YYYY/MM/DD">{edu.to}</Moment>
           )}
         </td>
-        <button
-          className="btn btn-danger"
-          onClick={() => {
-            this.onDeleteClick(edu._id);
-          }}
-        >
-          Delete
-        </button>
+        <td>
+          <button
+            className="btn btn-danger"
+            onClick={() => {
+              this.onDeleteClick(edu._id);
+            }}
+          >
+            Delete
+          </button>
+        </td>
       </tr>
     ));
     return (

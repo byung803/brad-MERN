@@ -22,14 +22,16 @@ class Experience extends Component {
             <Moment format="YYYY/MM/DD">{exp.to}</Moment>
           )}
         </td>
-        <button
-          className="btn btn-danger"
-          onClick={() => {
-            this.onDeleteClick(exp._id);
-          }}
-        >
-          Delete
-        </button>
+        <td>
+          <button
+            className="btn btn-danger"
+            onClick={() => {
+              this.onDeleteClick(exp._id);
+            }}
+          >
+            Delete
+          </button>
+        </td>
       </tr>
     ));
     return (

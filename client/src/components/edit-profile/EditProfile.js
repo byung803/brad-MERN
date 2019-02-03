@@ -91,6 +91,7 @@ class EditProfile extends Component {
 
   onSubmit = e => {
     e.preventDefault();
+    console.log("githubusername: ", this.state.githubusername);
 
     const profileData = {
       handle: this.state.handle,
