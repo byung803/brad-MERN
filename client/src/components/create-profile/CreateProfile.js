@@ -6,7 +6,7 @@ import TextAreaFieldGroup from "../common/TextAreaFieldGroup";
 import SelectListGroup from "../common/SelectListGroup";
 import InputGroup from "../common/InputGroup";
 
-import { createProfile } from "../../actions/profileAction";
+import { createProfile } from "../../actions/profileActions";
 
 class CreateProfile extends Component {
   state = {

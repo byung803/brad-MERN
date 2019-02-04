@@ -4,7 +4,7 @@ import TextAreaFieldGroup from "../common/TextAreaFieldGroup";
 import TextFieldGroup from "../common/TextFieldGroup.js";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import { addExperience } from "../../actions/profileAction";
+import { addExperience } from "../../actions/profileActions";
 
 class AddExperience extends Component {
   state = {
